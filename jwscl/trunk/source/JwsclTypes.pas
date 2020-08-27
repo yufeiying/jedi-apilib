@@ -71,23 +71,23 @@ type
 
 
   {<B>TJwTokenHandle</B> is the type of a token handle}
-  TJwTokenHandle   = Cardinal;
+  TJwTokenHandle   = THandle;
   //<B>TJwAccessMask</B> is the type of an access mask
   TJwAccessMask    = Cardinal;
   //<B>TJwThreadHandle</B> is the type of a thread handle
-  TJwThreadHandle  = Cardinal;
+  TJwThreadHandle  = THandle;
   //<B>TJwProcessHandle</B> is the type of a process handle
-  TJwProcessHandle = Cardinal;
+  TJwProcessHandle = THandle;
   //<B>TJwLastError</B> is the type of a last error code
   TJwLastError     = Cardinal;
   //<B>TJwTokenAccessMask</B> defines the access mask of a token
   TJwTokenAccessMask = TJwAccessMask;
   //<B>TJwCSPHandle</B> is the type of a cryptographic service provider handle
-  TJwCSPHandle     = Cardinal;
+  TJwCSPHandle     = THandle;
   //<B>TJwHashHandle</B> is the type of a hash handle
-  TJwHashHandle    = Cardinal;
+  TJwHashHandle    = THandle;
   //<B>TJwKeyHandle</B> is the type of a handle to a cryptographic key
-  TJwKeyHandle = Cardinal;
+  TJwKeyHandle = THandle;
 
 
   //<B>TJwSessionId</B> is the type of a Terminal Server Session Identifier

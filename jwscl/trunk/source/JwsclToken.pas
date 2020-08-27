@@ -5780,7 +5780,7 @@ end;
 
 class function TJwSecurityToken.HasThreadAToken(): boolean;
 var
-  Handle : DWORD;
+  Handle : THandle;
 begin
   Handle := INVALID_HANDLE_VALUE;
   result := OpenThreadToken(GetCurrentThread, TOKEN_QUERY or TOKEN_READ, false, Handle);

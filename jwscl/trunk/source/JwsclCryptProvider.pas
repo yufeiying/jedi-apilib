@@ -622,7 +622,7 @@ begin
 end;
 
 class procedure TJwCryptProvider.DeleteKeyset(const KeysetName: TJwString);
-var DummyHandle: Cardinal;
+var DummyHandle: THandle;
 begin
   if not {$IFDEF UNICODE}CryptAcquireContextW{$ELSE}CryptAcquireContextA{$ENDIF UNICODE}(DummyHandle,
     TJwPChar(KeysetName), nil, PROV_RSA_FULL, CRYPT_DELETEKEYSET) then

@@ -118,7 +118,7 @@ type
       out SubStatus: NTSTATUS);
 
 
-    property LsaHandle: Cardinal Read fLsaHandle;
+    property LsaHandle: THandle Read fLsaHandle;
 
   end;
 
