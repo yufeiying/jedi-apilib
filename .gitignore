@@ -6,6 +6,8 @@
 *.tlb
 *.sds
 *.stat
+*.dtx
 */*/Packages/*/*.res
 *Resource.rc
 bin/
+*/__*/
